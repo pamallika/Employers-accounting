@@ -6,9 +6,9 @@ import EmployersList from '../employers-list/employers-list';
 import EmployersAddForm from '../employers-add-form/employers-add-form';
 function App(){
     const data=[
-        {name:'John C.' , salary:800, increase:false, id:1 },
-        {name:'Alex M.' , salary:3000, increase:true, id:2 },
-        {name:'Carl W.' , salary:15000, increase:false, id:3 }
+        {name:'Иванов И.И.' , salary:800, increase:false, id:1 },
+        {name:'Петров И.И' , salary:3000, increase:true, id:2 },
+        {name:'Сидоров И.И' , salary:15000, increase:false, id:3 }
     ];
     return (
         <div className="app">
